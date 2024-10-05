@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is your favoirte fruit?</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <header>
+        <h1>What is your favorite fruit?</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#canvas">Canvas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the home section I guess, don't know how to make it more intresting.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>Just a site that lets you fill out a from recording your favorite fruit.</p>
+        </section>
+
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="favorite-fruit">What is your favorite fruit?</label>
+                <input type="text" id="favorite-fruit" name="favorite-fruit" required>
+
+                <label><input type="checkbox" name="subscribe" value="yes"> This is a checkbox, click to see it change.</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="audio">
+            <h2>Audio Section</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                
+            </audio>
+        </section>
+
+        <section id="canvas">
+            <h2>Canvas Shape</h2>
+            <canvas id="myCanvas" width="300" height="200"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Jeremy Gamble copyright 2024</p>
+    </footer>
+</body>
+</html>
